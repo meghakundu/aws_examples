@@ -1,6 +1,6 @@
 import {SQSClient,SendMessageCommand} from "@aws-sdk/client-sqs";
 const sqs = new SQSClient();
-const sqsurl = "https://sqs.us-east-1.amazonaws.com/257440051472/pizza-ordering-queue.fifo";
+//const sqsurl = "https://sqs.us-east-1.amazonaws.com/257440051472/pizza-ordering-queue.fifo";
 const numberofPizzaShops=1;
 const numberofOrders =10;
 
