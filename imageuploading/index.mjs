@@ -1,6 +1,6 @@
 import { PutObjectCommand, S3Client } from "@aws-sdk/client-s3";
 import fs from 'fs';
-const content = fs.readFileSync('index.html', {encoding:'utf-8'});
+const content = fs.readFileSync('fileupload.html', {encoding:'utf-8'});
 
 const client = new S3Client({});
 
