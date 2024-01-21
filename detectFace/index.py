@@ -3,7 +3,7 @@ import boto3
 
 client = boto3.client('rekognition')
 client_email = boto3.client('sns')
-snsArn = 'arn:aws:sns:us-east-1:257440051472:testmsg'
+#snsArn = 'arn:aws:sns:us-east-1:257440051472:testmsg'
 
 def lambda_handler(event, context):
     
