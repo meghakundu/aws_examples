@@ -1,3 +1,4 @@
+//apigateway added.
 export const handler = async(event)=>{
     var result,price,discount;
     
